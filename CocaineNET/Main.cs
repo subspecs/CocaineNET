@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Cocaine
+﻿namespace CocaineAPI
 {
     namespace Legacy
     {
@@ -16,7 +10,7 @@ namespace Cocaine
         
         public static class Methods
         {
-            private const string LibraryPath = @"C:\My Storage\My Projects\- Main Projects\Cocaine_GIT\cocaine\outputs\Cocaine.dll";
+            private const string LibraryPath = @"Cocaine.dll";
 
             //OS Methods =============================================================================
             [System.Runtime.InteropServices.DllImport(LibraryPath)]
@@ -78,7 +72,7 @@ namespace Cocaine
         }
     }
 
-    public static class API
+    public static class Cocaine
     {
         public enum ErrorTypes
         {
@@ -121,7 +115,7 @@ namespace Cocaine
         private static System.Collections.Generic.Dictionary<string, GPUBuffer> ThreadActiveBuffers;
 
         //Constructor.
-        static API()
+        static Cocaine()
         {
             Legacy.Methods.Initialize();
             unsafe

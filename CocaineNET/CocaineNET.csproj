@@ -7,7 +7,7 @@
     <ProjectGuid>{EA9E382A-B70B-429A-AC92-D819CFE137A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cocaine</RootNamespace>
+    <RootNamespace>CocaineAPI</RootNamespace>
     <AssemblyName>CocaineNET</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
