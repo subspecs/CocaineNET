@@ -10,7 +10,7 @@
         
         public static class Methods
         {
-            private const string LibraryPath = @"Cocaine.dll";
+            private const string LibraryPath = @"Cocaine";
 
             //OS Methods =============================================================================
             [System.Runtime.InteropServices.DllImport(LibraryPath)]
