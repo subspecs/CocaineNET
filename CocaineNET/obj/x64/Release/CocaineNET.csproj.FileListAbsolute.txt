@@ -1,0 +1,8 @@
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\tmp\CocaineNET\CocaineNET\bin\x64\Release\CocaineNET.dll
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\tmp\CocaineNET\CocaineNET\obj\x64\Release\CocaineNET.csproj.AssemblyReference.cache
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\tmp\CocaineNET\CocaineNET\obj\x64\Release\CocaineNET.csproj.CoreCompileInputs.cache
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\tmp\CocaineNET\CocaineNET\obj\x64\Release\CocaineNET.dll
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\CocaineNET\CocaineNET\bin\x64\Release\CocaineNET.dll
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\CocaineNET\CocaineNET\obj\x64\Release\CocaineNET.csproj.AssemblyReference.cache
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\CocaineNET\CocaineNET\obj\x64\Release\CocaineNET.csproj.CoreCompileInputs.cache
+C:\My Storage\My Projects\- Main Projects\CocaineNet_GIT\CocaineNET\CocaineNET\obj\x64\Release\CocaineNET.dll
