@@ -57,6 +57,7 @@ namespace ConsoleApp1
             Cocaine.CreateBuffer(Cocaine.GPUBufferTypes.Int, "InputB", InputArrayB, 0, 4, Cocaine.GPUBufferOptimizations.GPUStatic); //Create a buffer on GPU VRAM memory and write InputArrayB to it.
             Cocaine.CreateBuffer<int>(Cocaine.GPUBufferTypes.Int, "Output", null, 0, 4, Cocaine.GPUBufferOptimizations.Read); //Create a buffer on GPU VRAM memory and don't write anything so that the GPU creates an empty/zero filled buffer.
 
+            //Compile our GLSL(version 430) compatible code.
             if (!Cocaine.CompileComputeProgram("void main() { Output[CSJobIndex] = InputA[CSJobIndex] + InputB[CSJobIndex]; }", out Cocaine.GPUProgram Program)) //Compile Shader code. (Note: CSJobIndex is a global variable for the current Process ID.)
             {
                 throw new System.Exception("Failed to compile program! Refer to the error output.");
